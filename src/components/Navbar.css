@@ -1,0 +1,27 @@
+.navbar{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* background: red; */
+
+}
+.nav-center{
+    width:90vw;
+    max-width: var(--max-width);
+    /* background:blue; */
+}
+.nav-heading{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    transition: 0.5s ease-in-out 2s;
+}
+.nav-link{
+    cursor: pointer;
+}
